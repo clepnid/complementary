@@ -24,8 +24,11 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-copy-to-clipboard": "^5.1.0"
   },
+  
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
     "babel-eslint": "^10.0.3",
