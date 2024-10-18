@@ -79,6 +79,7 @@ const ComplementaryImage = ({ imageSrc, isDownloader = false, setImageSrc2 = () 
             const outputCtx2 = outputCanvas2.getContext('2d');
             const img = new Image();
             img.src = imageSrc;
+            img.crossOrigin = "anonymous";
 
             img.onload = () => {
                 canvas.width = img.width;
