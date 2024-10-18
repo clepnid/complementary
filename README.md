@@ -84,3 +84,6 @@ interface ColorChange {
 ## License
 
 This project is licensed under the MIT license, Copyright (c) 2023 <a href="https://effectussoftware.com">Effectus Software</a>. [[License](LICENSE)]
+
+## Author
+_Pavon: https://pavon00-port-folio.vercel.app/_
